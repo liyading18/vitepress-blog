@@ -1,11 +1,11 @@
 {
-  "name": "vitepress2021",
+  "name": "vitepress2021-v1",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "vitepress dev docs --port 3999",
+    "build": "vitepress build docs --build",
     "serve": "vitepress serve docs"
   },
   "devDependencies": {

@@ -8,3 +8,9 @@
 <img :src="$withBase('/images/VitePressPng.png')" alt="foo">
 ```
 <img :src="$withBase('/images/VitePressPng.png')" alt="foo">
+
+[VitePress](./VitePress/)
+
+[在线地址](http://pengchenggang.gitee.io/VitePress2021/)
+
+[发布地址](https://gitee.com/pengchenggang/vitepress2021/pages)
