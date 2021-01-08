@@ -28,8 +28,8 @@ function getSidebar () {
     '/VitePress/': [{
         text: 'GUI', 
         children:[
+          { text: 'second', link: '/VitePress/second' },
           { text: '主要问题', link: '/VitePress/' },
-          { text: 'second', link: '/VitePress/second' }
         ]
       }
     ]
