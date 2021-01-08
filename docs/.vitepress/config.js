@@ -25,7 +25,7 @@ module.exports = {
 function getSidebar () {
   return {
     '/config/': 'auto',
-    '/VitePress/': [{ 
+    '/VitePress/': [{
         text: 'GUI', 
         children:[
           { text: '主要问题', link: '/VitePress/' },
