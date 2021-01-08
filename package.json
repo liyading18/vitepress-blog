@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs --port 3999",
-    "build": "vitepress build docs --build",
-    "serve": "vitepress serve docs"
+    "build": "vitepress build docs --build"
   },
   "devDependencies": {
     "vitepress": "^0.10.7"

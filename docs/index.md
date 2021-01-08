@@ -1,11 +1,11 @@
----
+<!-- ---
 home: true
 heroImage: /logo.png
 heroAlt: Logo image
 heroText: Hero Title
 tagline: Hero subtitle
 actionText: Get Started
-actionLink: ./VitePress/one
+actionLink: ./VitePress/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
@@ -16,7 +16,7 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Evan You
 ---
 
-# Hello VitePress Index
+# Hello VitePress Index -->
 
 
 <!-- [VitePress](./VitePress/index.md) -->

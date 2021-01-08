@@ -25,7 +25,8 @@ module.exports = {
   title: 'Hello VitePress',
   description: 'Just playing around.',
   themeConfig: {
-    docsDir: 'docs',
+    displayAllHeaders: true,
+    // docsDir: 'docs',
     nav: getNav(), // 右上角的链接
     sidebar: getSidebar()
   }
