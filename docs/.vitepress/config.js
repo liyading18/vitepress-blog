@@ -10,7 +10,6 @@ function getNav () {
     { text: 'Navigator导航', link: "http://pengchenggang.gitee.io/navigator/" },
     {
         text: '下拉菜单',
-        // icon: 'reco-document',
         items: [
             { text: 'work1', link: '/work' },
             { text: 'config', link: '/config' }
@@ -20,7 +19,7 @@ function getNav () {
 }
 
 module.exports = {
-  hmr: { overlay: false },
+  // hmr: { overlay: false },
   base: baseBuild,
   title: 'Hello VitePress',
   description: 'Just playing around.',
@@ -28,29 +27,28 @@ module.exports = {
     // displayAllHeaders: true,
     // docsDir: 'docs',
     nav: getNav(), // 右上角的链接
-    sidebar: getSidebar()
+    sidebar: {
+      '/VitePress/': getVitePress()
+    }
   }
 }
 
-function getSidebar () {
-  return {
-    '/VitePress/': [{
-        text: 'GUI', 
-        children:[
-          { 
-            text: 'index', 
-            link: '/VitePress/'
-          },
-          { 
-            text: '主要问题',
-            link: '/VitePress/one'
-          },
-          { 
-            text: 'second', 
-            link: '/VitePress/second' 
-          }
-        ]
+function getVitePress () {
+  return [{
+    text: 'GUI', 
+    children:[
+      {
+        text: 'index',
+        link: '/VitePress/'
+      },
+      {
+        text: '主要问题',
+        link: '/VitePress/one'
+      },
+      {
+        text: 'second',
+        link: '/VitePress/second'
       }
     ]
-  }
+  }]
 }

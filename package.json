@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress dev docs --port 3999",
-    "build": "vitepress build docs --build"
+    "dev": "vitepress dev docs --port 3999 --no-cache",
+    "build": "vitepress build docs --build --no-cache"
   },
   "devDependencies": {
     "vitepress": "^0.10.7"
