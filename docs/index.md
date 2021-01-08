@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 <!-- ---
 home: true
 heroImage: /logo.png
@@ -18,7 +21,9 @@ footer: MIT Licensed | Copyright © 2019-present Evan You
 
 # Hello VitePress Index -->
 
+# 首页
 
+## link
 <!-- [VitePress](./VitePress/index.md) -->
 
 [在线地址](http://pengchenggang.gitee.io/VitePress2021/)

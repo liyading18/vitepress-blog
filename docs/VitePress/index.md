@@ -1,6 +1,3 @@
----
-sidebar: false
----
 # index
 It's ok.
 ## 小标题
