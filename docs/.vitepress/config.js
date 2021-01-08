@@ -25,11 +25,13 @@ module.exports = {
 function getSidebar () {
   return {
     '/config/': 'auto',
-    '/VitePress/': [
-      { text: 'GUI', children:[
-        { text: '主要问题', link: '/VitePress/' },
-        { text: 'second', link: '/VitePress/second'}
-      ]}
+    '/VitePress/': [{ 
+        text: 'GUI', 
+        children:[
+          { text: '主要问题', link: '/VitePress/' },
+          { text: 'second', link: '/VitePress/second' }
+        ]
+      }
     ]
   }
 }
