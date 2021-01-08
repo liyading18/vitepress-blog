@@ -4,7 +4,7 @@ const baseBuild  = build ? '/vitepress2021/' : '/'
 
 function getNav () {
   return [
-    { text: '主要页面', link: '/VitePress/'},
+    { text: '主要页面', link: '/vitepresscatalog/'},
     { text: '工作相关', link: '/work'},
     { text: 'Config', link: '/config'},
     { text: 'Navigator导航', link: "http://pengchenggang.gitee.io/navigator/" },
@@ -28,7 +28,7 @@ module.exports = {
     // docsDir: 'docs',
     nav: getNav(), // 右上角的链接
     sidebar: {
-      '/VitePress/': getVitePress()
+      '/vitepresscatalog/': getVitePress()
     }
   }
 }
@@ -39,15 +39,15 @@ function getVitePress () {
     children:[
       {
         text: 'index',
-        link: '/VitePress/'
+        link: '/vitepresscatalog/'
       },
       {
         text: '主要问题',
-        link: '/VitePress/one'
+        link: '/vitepresscatalog/one'
       },
       {
         text: 'second',
-        link: '/VitePress/second'
+        link: '/vitepresscatalog/second'
       }
     ]
   }]
