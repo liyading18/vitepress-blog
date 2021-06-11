@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs --port 3999 --no-cache",
-    "build": "vitepress build docs --build --no-cache"
+    "build": "vitepress build docs --build --no-cache",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "vitepress": "^0.10.7"
